@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Otang bozor enang bozor – e'lonlar platformasi</title>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F5F6F8;--card:#fff;--ink:#1A2233;--mute:#5F6B7D;--line:#DDE1E8;--brand:#E85D10;--brand-ink:#fff;--brand-text:#C24E0C;--accent:#1F3A5F;--accent-ink:#fff;--danger:#B3261E;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12171F;--card:#1B222E;--ink:#EDF0F5;--mute:#A3ADBD;--line:#2F3948;--brand:#FF8A4C;--brand-ink:#2B1000;--brand-text:#FF9A5C;--accent:#8FB0E0;--accent-ink:#0B1B33;--danger:#FF8A80}}
+:root[data-theme="dark"]{--bg:#12171F;--card:#1B222E;--ink:#EDF0F5;--mute:#A3ADBD;--line:#2F3948;--brand:#FF8A4C;--brand-ink:#2B1000;--brand-text:#FF9A5C;--accent:#8FB0E0;--accent-ink:#0B1B33;--danger:#FF8A80}
+*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Manrope,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.45}
+body{background-size:96px 96px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='96' viewBox='0 0 96 96' fill='none' stroke='%231F3A5F' stroke-opacity='.1' stroke-width='1.2'%3E%3Crect x='28' y='28' width='40' height='40'/%3E%3Crect x='28' y='28' width='40' height='40' transform='rotate(45 48 48)'/%3E%3Ccircle cx='48' cy='48' r='9'/%3E%3Cpath d='M20 48H0M76 48H96M48 20V0M48 76V96'/%3E%3Ccircle cx='0' cy='0' r='4'/%3E%3Ccircle cx='96' cy='0' r='4'/%3E%3Ccircle cx='0' cy='96' r='4'/%3E%3Ccircle cx='96' cy='96' r='4'/%3E%3C/svg%3E")}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) body{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='96' viewBox='0 0 96 96' fill='none' stroke='%238FB0E0' stroke-opacity='.1' stroke-width='1.2'%3E%3Crect x='28' y='28' width='40' height='40'/%3E%3Crect x='28' y='28' width='40' height='40' transform='rotate(45 48 48)'/%3E%3Ccircle cx='48' cy='48' r='9'/%3E%3Cpath d='M20 48H0M76 48H96M48 20V0M48 76V96'/%3E%3Ccircle cx='0' cy='0' r='4'/%3E%3Ccircle cx='96' cy='0' r='4'/%3E%3Ccircle cx='0' cy='96' r='4'/%3E%3Ccircle cx='96' cy='96' r='4'/%3E%3C/svg%3E")}}
+:root[data-theme="dark"] body{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='96' viewBox='0 0 96 96' fill='none' stroke='%238FB0E0' stroke-opacity='.1' stroke-width='1.2'%3E%3Crect x='28' y='28' width='40' height='40'/%3E%3Crect x='28' y='28' width='40' height='40' transform='rotate(45 48 48)'/%3E%3Ccircle cx='48' cy='48' r='9'/%3E%3Cpath d='M20 48H0M76 48H96M48 20V0M48 76V96'/%3E%3Ccircle cx='0' cy='0' r='4'/%3E%3Ccircle cx='96' cy='0' r='4'/%3E%3Ccircle cx='0' cy='96' r='4'/%3E%3Ccircle cx='96' cy='96' r='4'/%3E%3C/svg%3E")}
+body{background-size:160px 160px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 160 160' fill='none' stroke='%231F3A5F' stroke-opacity='.14' stroke-width='1.4'%3E%3Ccircle cx='0' cy='80' r='44'/%3E%3Ccircle cx='160' cy='80' r='44'/%3E%3Ccircle cx='80' cy='0' r='44'/%3E%3Ccircle cx='80' cy='160' r='44'/%3E%3Ccircle cx='80' cy='80' r='30'/%3E%3Cg fill='%231F3A5F' fill-opacity='.08'%3E%3Cellipse cx='80' cy='80' rx='6' ry='24'/%3E%3Cellipse cx='80' cy='80' rx='6' ry='24' transform='rotate(45 80 80)'/%3E%3Cellipse cx='80' cy='80' rx='6' ry='24' transform='rotate(90 80 80)'/%3E%3Cellipse cx='80' cy='80' rx='6' ry='24' transform='rotate(135 80 80)'/%3E%3C/g%3E%3Ccircle cx='80' cy='80' r='5' fill='%23B08A2E' fill-opacity='.45' stroke='none'/%3E%3Cg fill='%231F8A87' fill-opacity='.22' stroke='none'%3E%3Cpath d='M40 33L47 40L40 47L33 40Z'/%3E%3Cpath d='M120 33L127 40L120 47L113 40Z'/%3E%3Cpath d='M40 113L47 120L40 127L33 120Z'/%3E%3Cpath d='M120 113L127 120L120 127L113 120Z'/%3E%3C/g%3E%3C/svg%3E")}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) body{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 160 160' fill='none' stroke='%238FB0E0' stroke-opacity='.16' stroke-width='1.4'%3E%3Ccircle cx='0' cy='80' r='44'/%3E%3Ccircle cx='160' cy='80' r='44'/%3E%3Ccircle cx='80' cy='0' r='44'/%3E%3Ccircle cx='80' cy='160' r='44'/%3E%3Ccircle cx='80' cy='80' r='30'/%3E%3Cg fill='%238FB0E0' fill-opacity='.1'%3E%3Cellipse cx='80' cy='80' rx='6' ry='24'/%3E%3Cellipse cx='80' cy='80' rx='6' ry='24' transform='rotate(45 80 80)'/%3E%3Cellipse cx='80' cy='80' rx='6' ry='24' transform='rotate(90 80 80)'/%3E%3Cellipse cx='80' cy='80' rx='6' ry='24' transform='rotate(135 80 80)'/%3E%3C/g%3E%3Ccircle cx='80' cy='80' r='5' fill='%23D8B45A' fill-opacity='.5' stroke='none'/%3E%3Cg fill='%235FC4C0' fill-opacity='.25' stroke='none'%3E%3Cpath d='M40 33L47 40L40 47L33 40Z'/%3E%3Cpath d='M120 33L127 40L120 47L113 40Z'/%3E%3Cpath d='M40 113L47 120L40 127L33 120Z'/%3E%3Cpath d='M120 113L127 120L120 127L113 120Z'/%3E%3C/g%3E%3C/svg%3E")}}
+:root[data-theme="dark"] body{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 160 160' fill='none' stroke='%238FB0E0' stroke-opacity='.16' stroke-width='1.4'%3E%3Ccircle cx='0' cy='80' r='44'/%3E%3Ccircle cx='160' cy='80' r='44'/%3E%3Ccircle cx='80' cy='0' r='44'/%3E%3Ccircle cx='80' cy='160' r='44'/%3E%3Ccircle cx='80' cy='80' r='30'/%3E%3Cg fill='%238FB0E0' fill-opacity='.1'%3E%3Cellipse cx='80' cy='80' rx='6' ry='24'/%3E%3Cellipse cx='80' cy='80' rx='6' ry='24' transform='rotate(45 80 80)'/%3E%3Cellipse cx='80' cy='80' rx='6' ry='24' transform='rotate(90 80 80)'/%3E%3Cellipse cx='80' cy='80' rx='6' ry='24' transform='rotate(135 80 80)'/%3E%3C/g%3E%3Ccircle cx='80' cy='80' r='5' fill='%23D8B45A' fill-opacity='.5' stroke='none'/%3E%3Cg fill='%235FC4C0' fill-opacity='.25' stroke='none'%3E%3Cpath d='M40 33L47 40L40 47L33 40Z'/%3E%3Cpath d='M120 33L127 40L120 47L113 40Z'/%3E%3Cpath d='M40 113L47 120L40 127L33 120Z'/%3E%3Cpath d='M120 113L127 120L120 127L113 120Z'/%3E%3C/g%3E%3C/svg%3E")}
+.wrap{max-width:960px;margin:0 auto;padding:0 16px}
+header{position:relative;margin-bottom:24px;background:var(--brand);color:var(--brand-ink);padding:22px 0 26px}header::after{content:"";position:absolute;left:0;right:0;top:100%;height:24px;background:#1F3A5F url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='24' viewBox='0 0 32 24'%3E%3Cpath d='M0 1H32M0 23H32' stroke='%23fff' stroke-opacity='.6'/%3E%3Cg fill='%23fff'%3E%3Crect x='10' y='6' width='12' height='12'/%3E%3Crect x='10' y='6' width='12' height='12' transform='rotate(45 16 12)'/%3E%3C/g%3E%3Ccircle cx='16' cy='12' r='3' fill='%23B08A2E'/%3E%3C/svg%3E") repeat-x 0 0/32px 24px}
+header .row{display:flex;justify-content:space-between;align-items:center;gap:12px}
+h1{margin:0;font-size:1.6rem;font-weight:800;letter-spacing:-.03em;line-height:1.1}
+header p{margin:4px 0 0;opacity:.85;font-size:.9rem}
+.btn{border:0;border-radius:10px;padding:11px 16px;font:inherit;font-weight:700;cursor:pointer;background:var(--accent);color:var(--accent-ink)}
+.btn.alt{background:var(--brand-text);color:var(--brand-ink)}
+.btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.search{margin-top:18px}.search input{border:0;padding:14px 16px;font-size:1rem;border-radius:12px;box-shadow:0 3px 0 rgba(0,0,0,.18)}
+input,select,textarea{width:100%;font:inherit;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:10px;padding:11px 12px}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:14px 0 6px;scrollbar-width:none}
+.chip{flex:none;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:8px 14px;font:inherit;font-weight:600;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.meta{display:flex;justify-content:space-between;align-items:center;color:var(--mute);font-size:.9rem;margin:8px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px;padding-bottom:40px}
+.item{position:relative;background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;display:flex;flex-direction:column}
+.thumb img{width:100%;height:100%;object-fit:cover}.thumb{height:150px;overflow:hidden;display:grid;place-items:center;font-size:2.6rem;background:var(--bg)}
+.body{padding:12px 14px 14px;display:flex;flex-direction:column;gap:6px;flex:1}
+.price{font-weight:800;font-size:1.3rem;letter-spacing:-.01em;color:var(--brand-text)}
+.title{font-weight:600}
+.sub{color:var(--mute);font-size:.85rem}
+.tag{position:absolute;top:10px;left:10px;font-size:.75rem;font-weight:700;background:var(--card);color:var(--ink);border-radius:999px;padding:3px 10px;box-shadow:0 1px 3px rgba(0,0,0,.25)}
+.actions{display:flex;gap:8px;margin-top:auto;padding-top:8px}
+.actions a,.actions button{flex:1;text-align:center;text-decoration:none;font-size:.9rem;padding:9px 8px}
+.empty{grid-column:1/-1;text-align:center;color:var(--mute);padding:40px 10px}
+dialog{border:0;border-top:6px solid var(--accent);border-radius:16px;padding:0;width:min(440px,calc(100% - 24px));background:var(--card);color:var(--ink)}
+dialog::backdrop{background:rgba(0,0,0,.5)}
+form{padding:18px;display:grid;gap:12px}
+form h2{margin:0;font-size:1.2rem}
+label{font-weight:600;font-size:.9rem;display:grid;gap:5px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.err{color:var(--danger);font-size:.85rem;min-height:1em}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(20px + env(safe-area-inset-bottom,0px));background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:10px;font-weight:600;opacity:0;pointer-events:none;transition:opacity .2s}
+.toast.on{opacity:1}
+@media (prefers-reduced-motion:reduce){.toast{transition:none}}
+</style>
+</head>
+<body>
+<header>
+ <div class="wrap">
+  <div class="row">
+   <div><h1>Otang bozor enang bozor</h1><p>Sotib oling va soting – butun O'zbekiston</p></div>
+   <div style="display:flex;gap:8px"><button class="btn ghost" id="lang" style="color:inherit;border-color:currentColor" aria-label="Til / Язык">RU</button><button class="btn" id="addBtn">E'lon joylash</button></div>
+  </div>
+  <div class="search"><input id="q" type="search" placeholder="Qidirish: iPhone, noutbuk, televizor…" aria-label="Qidirish"></div>
+ </div>
+</header>
+<div class="wrap" style="padding-top:4px"><svg viewBox="0 0 360 230" role="img" aria-labelledby="heroT" style="display:block;width:100%;max-width:520px;margin:0 auto;border-radius:14px"><title id="heroT">Doppi kiygan oqsoqol va uning xotini kompyuterda e'lon joylashtirmoqda</title>
+<defs>
+<linearGradient id="hbg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FBDD6E"/><stop offset="1" stop-color="#F0B230"/></linearGradient>
+<radialGradient id="hsm" cx=".4" cy=".35" r=".85"><stop offset="0" stop-color="#E9B88F"/><stop offset="1" stop-color="#C58B60"/></radialGradient>
+<radialGradient id="hsw" cx=".4" cy=".35" r=".85"><stop offset="0" stop-color="#F3C8A4"/><stop offset="1" stop-color="#D49C76"/></radialGradient>
+<linearGradient id="htl" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2DB293"/><stop offset="1" stop-color="#17745E"/></linearGradient>
+<linearGradient id="hsc" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E9EEF6"/></linearGradient>
+<pattern id="hch" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#2E7D5B"/><rect width="4" height="10" fill="#1F5E43"/><rect x="4" width="1" height="10" fill="#C9B037"/></pattern>
+<pattern id="hbd" width="14" height="12" patternUnits="userSpaceOnUse"><rect width="14" height="12" fill="#D4A62A"/><path d="M0 0L7 10L14 0Z" fill="#D9382B"/><path d="M4 0L7 5L10 0Z" fill="#14163A"/></pattern>
+<pattern id="hzz" width="18" height="22" patternUnits="userSpaceOnUse"><rect width="18" height="22" fill="#5B2A86"/><rect width="18" height="3" fill="#2E9E5B"/><rect y="19" width="18" height="3" fill="#2E9E5B"/><path d="M0 11L9 4L18 11L9 18Z" fill="#F2C94C"/><path d="M9 7L13 11L9 15L5 11Z" fill="#D9382B"/></pattern>
+<g id="hfp"><circle r="6.5" fill="#fff"/><circle r="5" fill="#E64A8A"/><circle r="3" fill="#F7B6D0"/><circle r="1.2" fill="#fff"/></g>
+<g id="hfo"><circle r="6.5" fill="#fff"/><circle r="5" fill="#F28C28"/><circle r="3" fill="#FFD08A"/><circle r="1.2" fill="#fff"/></g>
+</defs>
+<rect width="360" height="230" fill="url(#hbg)"/>
+<circle cx="40" cy="30" r="64" fill="#fff" fill-opacity=".16"/><circle cx="335" cy="200" r="74" fill="#fff" fill-opacity=".12"/>
+<g>
+<path d="M38 178L40 128Q44 108 66 106L98 106Q118 108 120 128L122 178Z" fill="url(#hch)"/>
+<path d="M38 152H122V160H38Z" fill="#B8322A"/><path d="M38 156H122" stroke="#F2C94C" stroke-width="1"/>
+<path d="M68 106L80 126L92 106Z" fill="#fff"/>
+<rect x="70" y="96" width="20" height="14" fill="#B98258"/>
+<ellipse cx="60" cy="86" rx="3.6" ry="5" fill="#C58B60"/><ellipse cx="100" cy="86" rx="3.6" ry="5" fill="#C58B60"/>
+<ellipse cx="80" cy="84" rx="20" ry="23" fill="url(#hsm)"/>
+<path d="M60 88Q60 118 80 124Q100 118 100 88Q94 106 80 106Q66 106 60 88Z" fill="#EEEEEE" stroke="#D2D2D2" stroke-width=".6"/>
+<path d="M70 108Q72 116 76 120M84 108Q86 116 88 120M80 110V121" stroke="#D2D2D2" stroke-width=".7" fill="none"/>
+<path d="M68 99Q80 93 92 99Q80 102 68 99Z" fill="#F7F7F7" stroke="#D2D2D2" stroke-width=".5"/>
+<path d="M80 86L77 96Q80 98 83 96" stroke="#A9744F" stroke-width="1.1" fill="none"/>
+<ellipse cx="72" cy="85" rx="3.6" ry="2.2" fill="#fff"/><ellipse cx="88" cy="85" rx="3.6" ry="2.2" fill="#fff"/>
+<circle cx="73.2" cy="85" r="1.7" fill="#2A1A10"/><circle cx="89.2" cy="85" r="1.7" fill="#2A1A10"/>
+<path d="M66 80Q72 77 77 80M83 80Q88 77 94 80" stroke="#E8E8E8" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+<path d="M63 85L60 84M63 88L60 89M97 85L100 84M97 88L100 89" stroke="#A9744F" stroke-width=".7"/>
+<path d="M58 77L62 57L68 54L67 73Z" fill="#D9382B"/><path d="M67 73L68 54L76 52L76 72Z" fill="#2E9E5B"/><path d="M76 72L76 52L84 52L84 72Z" fill="#B5733A"/><path d="M84 72L84 52L92 54L93 73Z" fill="#1AA3C8"/><path d="M93 73L92 54L98 57L102 77Z" fill="#7B3FA6"/>
+<ellipse cx="80" cy="52" rx="10" ry="3.4" fill="#E9CFA3"/><path d="M80 52L72 52M80 52L88 52M80 52L76 50M80 52L84 50" stroke="#B5733A" stroke-width=".8"/>
+<path d="M63 60L65.5 64.5L63 69L60.5 64.5Z" fill="#fff"/><path d="M68 62L72 66L76 62M68 67L72 71L76 67" stroke="#F2C94C" stroke-width="1.5" fill="none"/><path d="M80 57L83.5 62.5L80 68L76.5 62.5Z" fill="#fff"/><path d="M86 71L88.5 62L91 71Z" fill="#F4A3C0"/><path d="M94 59L97 62.5L94 66L97 69.5" stroke="#F2C94C" stroke-width="1.4" fill="none"/>
+<path d="M58 77Q80 70 102 77L102 81Q80 74 58 81Z" fill="#2A1A40"/><path d="M58 79Q80 72 102 79" stroke="#fff" stroke-width="1.6" stroke-dasharray="3 2" fill="none"/>
+</g>
+<g>
+<path d="M246 178L250 128Q254 110 274 108L306 108Q326 110 330 128L334 178Z" fill="url(#htl)"/>
+<rect x="283" y="114" width="14" height="64" fill="url(#hbd)"/><path d="M283 114V178M297 114V178" stroke="#C9D043" stroke-width="1.2"/>
+<path d="M276 110Q290 123 304 110" stroke="#fff" stroke-width="3.2" fill="none"/>
+<rect x="282" y="98" width="16" height="14" fill="#C58B66"/>
+<ellipse cx="290" cy="86" rx="19" ry="22" fill="url(#hsw)"/>
+<circle cx="279" cy="93" r="3.4" fill="#F08A8A" fill-opacity=".3"/><circle cx="301" cy="93" r="3.4" fill="#F08A8A" fill-opacity=".3"/>
+<ellipse cx="283" cy="86" rx="3.2" ry="2" fill="#fff"/><ellipse cx="297" cy="86" rx="3.2" ry="2" fill="#fff"/>
+<circle cx="282" cy="86" r="1.6" fill="#2A1A10"/><circle cx="296" cy="86" r="1.6" fill="#2A1A10"/>
+<path d="M278 81Q283 78 288 81M292 81Q297 78 302 81" stroke="#3A2218" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+<path d="M290 87L288 94Q290 95.5 292 94" stroke="#B9835E" stroke-width="1" fill="none"/>
+<path d="M284 99Q290 103 296 99Q290 100.5 284 99Z" fill="#C45B5B"/>
+<path d="M270 92Q266 62 290 59Q314 62 310 92Q309 75 290 73Q271 75 270 92Z" fill="#F7F4EC"/>
+<path d="M270 90Q258 112 256 158L266 158Q268 120 278 100Z" fill="#F2EEE4"/><path d="M310 90Q322 112 324 158L314 158Q312 120 302 100Z" fill="#F2EEE4"/>
+<path d="M257 158V166M260 158V166M263 158V166M265 158V165M315 158V166M318 158V166M321 158V166M323 158V165" stroke="#E4DFD2" stroke-width="1"/>
+<path d="M271 77Q290 67 309 77" stroke="#D93055" stroke-width="5" fill="none"/><path d="M271 77Q290 67 309 77" stroke="#F6A5C0" stroke-width="1.4" fill="none"/>
+<circle cx="269" cy="82" r="2" fill="#1AA3C8"/><circle cx="311" cy="82" r="2" fill="#F2C94C"/><circle cx="270.5" cy="94" r="1.7" fill="#E3B642"/><circle cx="309.5" cy="94" r="1.7" fill="#E3B642"/>
+</g>
+<rect x="125" y="58" width="110" height="84" rx="7" fill="#1F3A5F"/><rect x="131" y="64" width="98" height="72" fill="url(#hsc)"/><rect x="131" y="64" width="98" height="13" fill="#E85D10"/>
+<text x="136" y="74" font-size="8" font-weight="700" fill="#fff" font-family="system-ui,sans-serif">E'lon joylash</text>
+<rect x="137" y="84" width="36" height="30" rx="3" fill="#DDE1E8"/><path d="M139 112L151 96L158 105L164 99L171 112Z" fill="#8FB0E0"/>
+<rect x="180" y="85" width="42" height="6" rx="2" fill="#1F3A5F"/><rect x="180" y="96" width="30" height="4" rx="2" fill="#A3ADBD"/><rect x="180" y="104" width="36" height="4" rx="2" fill="#A3ADBD"/><rect x="180" y="115" width="36" height="12" rx="3" fill="#E85D10"/>
+<rect x="171" y="142" width="18" height="14" fill="#1F3A5F"/><rect x="155" y="154" width="50" height="6" rx="3" fill="#1F3A5F"/>
+<rect y="178" width="360" height="52" fill="#8A5A2B"/><rect y="178" width="360" height="6" fill="#A8712F"/>
+<rect y="198" width="360" height="22" fill="url(#hzz)"/><path d="M0 198H360M0 220H360" stroke="#fff" stroke-width="1.2"/>
+<rect x="138" y="166" width="84" height="12" rx="3" fill="#5F6B7D"/><path d="M143 170H217M143 174H217" stroke="#8A94A6" stroke-width="1.6" stroke-dasharray="4 1.5"/>
+<path d="M112 128Q134 144 148 166" stroke="#1F5E43" stroke-width="19" stroke-linecap="round" fill="none"/><path d="M112 128Q134 144 148 166" stroke="#2E7D5B" stroke-width="15" stroke-linecap="round" fill="none"/>
+<path d="M142 160L154 168" stroke="#fff" stroke-width="4"/>
+<ellipse cx="154" cy="170" rx="7.5" ry="5" fill="#D9A47A"/><path d="M149 168H160M150 171H160" stroke="#B9835E" stroke-width=".8"/>
+<g>
+<path d="M252 118L274 132L240 172L212 158Z" fill="url(#htl)"/>
+<path d="M252 118L274 132" stroke="#C9D043" stroke-width="2.4"/><path d="M274 132L240 172" stroke="#C9D043" stroke-width="2.4" stroke-dasharray="3 2"/>
+<path d="M252 118L212 158" stroke="#C9D043" stroke-width="2.4" stroke-dasharray="3 2"/>
+<path d="M214 150L238 164" stroke="#F2C94C" stroke-width="1.6" stroke-dasharray="2 2"/>
+<use href="#hfp" x="252" y="138"/><use href="#hfo" x="238" y="152"/><use href="#hfp" x="262" y="150"/><use href="#hfo" x="230" y="140"/>
+<path d="M212 158L240 172" stroke="#fff" stroke-width="6"/><path d="M212 161L240 175" stroke="#D9382B" stroke-width="1.4" stroke-dasharray="2 2"/>
+<ellipse cx="224" cy="172" rx="7.5" ry="5" fill="#E8B48C"/><path d="M219 170H230M220 173H230" stroke="#C58B66" stroke-width=".8"/>
+</g>
+</svg></div>
+<main class="wrap">
+ <div class="chips" id="cats" role="group" aria-label="Kategoriyalar"></div>
+ <div class="row meta" style="display:flex">
+  <span id="count"></span>
+  <select id="sort" style="width:auto" aria-label="Saralash">
+   <option value="new">Yangi e'lonlar</option>
+   <option value="asc">Arzonroq</option>
+   <option value="desc">Qimmatroq</option>
+  </select>
+ </div>
+ <div class="grid" id="list"></div>
+</main>
+
+<dialog id="dlg">
+ <form id="f" method="dialog" onsubmit="return false">
+  <h2>Yangi e'lon</h2>
+  <label>Nomi<input id="fTitle" maxlength="60" placeholder="Masalan: iPhone 13, 128 GB"></label>
+  <div class="two">
+   <label>Kategoriya<select id="fCat"></select></label>
+   <label>Holati<select id="fCond"><option value="Yaxshi">Yaxshi</option><option value="Ideal">Ideal</option><option value="Ta'mir kerak">Ta'mir kerak</option></select></label>
+  </div>
+  <div class="two">
+   <label>Narxi (so'm)<input id="fPrice" inputmode="numeric" placeholder="5000000"></label>
+   <label>Shahar<select id="fCity"></select></label>
+  </div>
+  <label>Telefon<input id="fPhone" inputmode="tel" placeholder="+998 90 123 45 67"></label>
+  <label>Telegram (ixtiyoriy)<input id="fTg" placeholder="@username"></label>
+  <label>Rasm (ixtiyoriy)<input id="fPhoto" type="file" accept="image/*"></label>
+  <div id="prev"></div>
+  <div class="err" id="err" role="alert"></div>
+  <div class="two"><button class="btn ghost" type="button" id="cancel">Bekor qilish</button><button class="btn alt" type="button" id="save">Joylash</button></div>
+ </form>
+</dialog>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+const CATS=[["📱","Telefonlar"],["💻","Noutbuklar"],["📺","Televizorlar"],["🎮","O'yin konsollari"],["🎧","Aksessuarlar"],["🧊","Maishiy texnika"],["🚗","Avtomobillar"],["🔧","Ehtiyot qismlar"],["🏢","Uy-joy"],["🛋️","Mebel"],["👕","Kiyim-kechak"],["🧸","Bolalar uchun"],["⚽","Sport"],["🔨","Qurilish"],["🐄","Hayvonlar"],["🛠️","Xizmatlar"],["📦","Boshqa"]];
+const CITIES=["Toshkent","Samarqand","Buxoro","Andijon","Farg'ona","Namangan","Qarshi","Nukus","Xiva"];
+const KEY="texnobozor_v1";
+const seed=[
+ {id:1,t:"iPhone 13, 128 GB",c:"Telefonlar",p:6200000,city:"Toshkent",cond:"Ideal",ph:"+998901234567",tg:"",ts:5},
+ {id:2,t:"Samsung Galaxy A54",c:"Telefonlar",p:3100000,city:"Samarqand",cond:"Yaxshi",ph:"+998931112233",tg:"",ts:4},
+ {id:3,t:"Lenovo ThinkPad T14, 16 GB",c:"Noutbuklar",p:5400000,city:"Toshkent",cond:"Yaxshi",ph:"+998977778899",tg:"",ts:3},
+ {id:4,t:"PlayStation 5 + 2 ta joystik",c:"O'yin konsollari",p:5900000,city:"Andijon",cond:"Ideal",ph:"+998915554433",tg:"",ts:2},
+ {id:5,t:"Samsung 43\" Smart TV",c:"Televizorlar",p:2800000,city:"Buxoro",cond:"Yaxshi",ph:"+998946667788",tg:"",ts:1},
+ {id:6,t:"Chevrolet Cobalt, 2019",c:"Avtomobillar",p:135000000,city:"Toshkent",cond:"Yaxshi",ph:"+998901112200",tg:"",ts:0.6},
+ {id:7,t:"Divan, 3 kishilik",c:"Mebel",p:1800000,city:"Namangan",cond:"Yaxshi",ph:"+998939998877",tg:"",ts:0.5},
+ {id:8,t:"1 xonali kvartira ijaraga",c:"Uy-joy",p:2500000,city:"Samarqand",cond:"Ideal",ph:"+998975553322",tg:"",ts:0.4}
+];
+let items=load(),cat="Hammasi",photo="";
+function load(){return []}
+function persist(){try{localStorage.setItem(KEY,JSON.stringify(items))}catch(e){toast(tr("Xotira to'lgan: e'lon saqlanmadi"))}}
+const $=id=>document.getElementById(id);
+const fmt=n=>new Intl.NumberFormat("uz-UZ").format(n).replace(/,/g," ")+(lang==="ru"?" сум":" so'm");
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+function icon(c){const x=CATS.find(k=>k[1]===c);return x?x[0]:"📦"}
+function chips(){
+ const all=[["","Hammasi"],...CATS];
+ $("cats").innerHTML=all.map(k=>`<button class="chip" aria-pressed="${cat===k[1]}" data-c="${esc(k[1])}">${k[0]} ${esc(tr(k[1]))}</button>`).join("");
+ $("cats").querySelectorAll("button").forEach(b=>b.onclick=()=>{cat=b.dataset.c;chips();render()});
+}
+function render(){
+ const q=$("q").value.trim().toLowerCase(),s=$("sort").value;
+ let r=items.filter(i=>(cat==="Hammasi"||i.c===cat)&&(!q||(i.t+i.city).toLowerCase().includes(q)));
+ r.sort((a,b)=>s==="asc"?a.p-b.p:s==="desc"?b.p-a.p:b.ts-a.ts);
+ $("count").textContent=r.length+(lang==="ru"?" объявл.":" ta e'lon");
+ $("list").innerHTML=r.length?r.map(i=>{
+  const tg=i.tg?`<a class="btn ghost" href="https://t.me/${esc(i.tg.replace('@',''))}" target="_blank" rel="noopener">Telegram</a>`:"";
+  return `<article class="item"><div class="thumb" aria-hidden="true">${i.img?`<img src="${i.img}" alt="">`:icon(i.c)}</div><div class="body">
+  <span class="tag">${esc(tr(i.cond))}</span><div class="price">${fmt(i.p)}</div><div class="title">${esc(i.t)}</div>
+  <div class="sub">${esc(tr(i.city))} · ${esc(tr(i.c))}</div>
+  <div class="actions"><a class="btn alt" href="tel:${esc(i.ph)}">${tr("Qo'ng'iroq")}</a>${tg}</div></div></article>`}).join("")
+ :`<div class="empty">${tr("Hech narsa topilmadi. Boshqa so'z yozing yoki birinchi e'lonni o'zingiz joylang.")}</div>`;
+}
+function toast(m){const t=$("toast");t.textContent=m;t.classList.add("on");setTimeout(()=>t.classList.remove("on"),2200)}
+$("fCat").innerHTML=CATS.map(k=>`<option value="${esc(k[1])}">${esc(k[1])}</option>`).join("");
+$("fCity").innerHTML=CITIES.map(c=>`<option value="${esc(c)}">${esc(c)}</option>`).join("");
+$("addBtn").onclick=()=>{$("err").textContent="";$("dlg").showModal()};
+$("cancel").onclick=()=>$("dlg").close();
+$("save").onclick=async()=>{
+ const t=$("fTitle").value.trim(),p=parseInt($("fPrice").value.replace(/\D/g,""),10),ph=$("fPhone").value.replace(/[^\d+]/g,"");
+ if(t.length<3)return $("err").textContent=tr("E'lon nomini kiriting (kamida 3 harf).");
+ if(!p||p<1000)return $("err").textContent=tr("Narxni so'mda to'g'ri kiriting.");
+ if(!/^\+?998\d{9}$/.test(ph))return $("err").textContent=tr("Telefon raqamni +998 XX XXX XX XX ko'rinishida kiriting.");
+ $("save").disabled=true;try{await window.fbAdd({img:photo,t,c:$("fCat").value,p,city:$("fCity").value,cond:$("fCond").value,ph:ph.startsWith("+")?ph:"+"+ph,tg:$("fTg").value.trim(),ts:Date.now()})}catch(e){$("save").disabled=false;return $("err").textContent="Xatolik: e'lon joylanmadi. Internetni tekshiring."}$("save").disabled=false;$("dlg").close();["fTitle","fPrice","fPhone","fTg","fPhoto"].forEach(i=>$(i).value="");photo="";$("prev").innerHTML="";
+ cat="Hammasi";$("sort").value="new";chips();render();toast(tr("E'lon joylandi"));
+};
+$("fPhoto").onchange=e=>{const f=e.target.files[0];if(!f)return;if(!f.type.startsWith("image/"))return $("err").textContent=tr("Faqat rasm faylini tanlang.");const r=new FileReader();r.onload=()=>{const im=new Image();im.onload=()=>{const k=Math.min(1,640/Math.max(im.width,im.height)),c=document.createElement("canvas");c.width=Math.round(im.width*k);c.height=Math.round(im.height*k);c.getContext("2d").drawImage(im,0,0,c.width,c.height);photo=c.toDataURL("image/jpeg",.7);$("prev").innerHTML=`<img src="${photo}" alt="Tanlangan rasm" style="width:100%;max-height:140px;object-fit:cover;border-radius:10px">`;$("err").textContent=""};im.src=r.result};r.readAsDataURL(f)};
+$("q").oninput=render;$("sort").onchange=render;
+let lang="uz";
+const RU={"Sotib oling va soting – butun O'zbekiston":"Покупайте и продавайте по всему Узбекистану","E'lon joylash":"Подать объявление","Yangi e'lonlar":"Новые","Arzonroq":"Дешевле","Qimmatroq":"Дороже","Yangi e'lon":"Новое объявление","Nomi":"Название","Kategoriya":"Категория","Holati":"Состояние","Narxi (so'm)":"Цена (сум)","Shahar":"Город","Telefon":"Телефон","Telegram (ixtiyoriy)":"Telegram (необязательно)","Rasm (ixtiyoriy)":"Фото (необязательно)","Bekor qilish":"Отмена","Joylash":"Опубликовать","Yaxshi":"Хорошее","Ideal":"Идеальное","Ta'mir kerak":"Нужен ремонт","Hammasi":"Все","Telefonlar":"Телефоны","Noutbuklar":"Ноутбуки","Televizorlar":"Телевизоры","O'yin konsollari":"Игровые консоли","Aksessuarlar":"Аксессуары","Maishiy texnika":"Бытовая техника","Avtomobillar":"Автомобили","Ehtiyot qismlar":"Запчасти","Uy-joy":"Недвижимость","Mebel":"Мебель","Kiyim-kechak":"Одежда","Bolalar uchun":"Детям","Sport":"Спорт","Qurilish":"Стройматериалы","Hayvonlar":"Животные","Xizmatlar":"Услуги","Boshqa":"Другое","Toshkent":"Ташкент","Samarqand":"Самарканд","Buxoro":"Бухара","Andijon":"Андижан","Farg'ona":"Фергана","Namangan":"Наманган","Qarshi":"Карши","Nukus":"Нукус","Xiva":"Хива","Qo'ng'iroq":"Позвонить","Qidirish: iPhone, noutbuk, televizor…":"Поиск: iPhone, ноутбук, телевизор…","Masalan: iPhone 13, 128 GB":"Например: iPhone 13, 128 GB","E'lon nomini kiriting (kamida 3 harf).":"Введите название (минимум 3 символа).","Narxni so'mda to'g'ri kiriting.":"Укажите цену в сумах.","Telefon raqamni +998 XX XXX XX XX ko'rinishida kiriting.":"Введите телефон в формате +998 XX XXX XX XX.","E'lon joylandi":"Объявление опубликовано","Faqat rasm faylini tanlang.":"Выберите файл изображения.","Xotira to'lgan: e'lon saqlanmadi":"Память заполнена: объявление не сохранено","Hech narsa topilmadi. Boshqa so'z yozing yoki birinchi e'lonni o'zingiz joylang.":"Ничего не найдено. Измените запрос или разместите первое объявление сами."};
+function tr(s){return lang==="ru"&&RU[s]||s}
+function applyLang(){
+ document.documentElement.lang=lang=="ru"?"ru":"uz";
+ const w=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);let n;
+ while(n=w.nextNode()){if(n.parentElement.closest("#list,#cats,#count,#toast,#lang,script"))continue;
+  if(n.__o===undefined)n.__o=n.nodeValue;const t=n.__o.trim();if(!t)continue;n.nodeValue=RU[t]&&lang==="ru"?n.__o.replace(t,RU[t]):n.__o}
+ document.querySelectorAll("[placeholder]").forEach(e=>{if(e.dataset.o===undefined)e.dataset.o=e.placeholder;e.placeholder=tr(e.dataset.o)});
+ $("lang").textContent=lang==="ru"?"UZ":"RU";
+ chips();render();
+}
+$("lang").onclick=()=>{lang=lang==="uz"?"ru":"uz";applyLang()};
+window.setItems=l=>{items=l;render()};
+chips();render();
+</script>
+<script type="module">
+import {initializeApp} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+import {getAuth,signInAnonymously} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
+import {getFirestore,collection,addDoc,query,orderBy,limit,onSnapshot} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+const cfg={apiKey:"AIzaSyDgGEpcqm0V9-VogTLb3tuiedUGFmFBajQ",authDomain:"otangbozor.firebaseapp.com",projectId:"otangbozor",storageBucket:"otangbozor.firebasestorage.app",messagingSenderId:"1054099024426",appId:"1:1054099024426:web:32489f86a7c925d114b153"};
+const app=initializeApp(cfg),auth=getAuth(app),db=getFirestore(app),col=collection(db,"listings");
+const okImg=/^data:image\/jpeg;base64,[A-Za-z0-9+\/=]+$/;
+await signInAnonymously(auth);
+window.fbAdd=d=>addDoc(col,{title:d.t,category:d.c,price:d.p,city:d.city,condition:d.cond,phone:d.ph,telegram:d.tg,image:d.img||"",uid:auth.currentUser.uid,createdAt:Date.now()});
+onSnapshot(query(col,orderBy("createdAt","desc"),limit(200)),snap=>{
+ window.setItems(snap.docs.map(x=>{const v=x.data();return{id:x.id,t:String(v.title||""),c:String(v.category||""),p:Number(v.price)||0,city:String(v.city||""),cond:String(v.condition||""),ph:String(v.phone||""),tg:String(v.telegram||""),img:okImg.test(v.image||"")?v.image:"",ts:Number(v.createdAt)||0}}))
+});
+</script>
+</body>
+</html>
